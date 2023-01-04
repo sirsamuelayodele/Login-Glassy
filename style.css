@@ -207,9 +207,13 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 364px) {
   .login__button {
     flex-direction: column;
+  }
+
+  .login__button-ghost {
+    font-size: var(--smaller-font-size); */
   }
 }
 
